@@ -4,13 +4,13 @@
     
     <title>STUDENT REGISTRATION FORM</title>
 </head>
-<body>
+<body bgcolor="pink">
     <h1>STUDENT REGISTRATION FORM</h1>
     <form>
         <pre>
         FIRST NAME: <input type="text" ><br>
         LAST NAME: <input type="text"><br>
-        DATE OF BIRTH: <slect>
+        DATE OF BIRTH: <select>
             <option value="Day">Day</option>
             <option value="1">1</option>
             <option value="2">2</option>
@@ -24,8 +24,7 @@
             <option value="10">10</option>
             <option value="11">11</option>
 
-        </slect>
-        <select>
+        </select> <select>
             <option value="Month">Month</option>
             <option value="January">January</option>
             <option value="february">Day</option>
@@ -35,8 +34,7 @@
             <option value="June">June</option>
             <option value="August">August</option>
 
-        </select>
-        <select>
+        </select><select>
             <option value="Year">Year</option>
             <option value="2001">2001</option>
             <option value="2002">2002</option>
@@ -48,12 +46,71 @@
             <option value="2008">2008</option>
             <option value="2009">2009</option>
         
-        </select>
+        </select><br>
         MOBILE NUMBER: <input type="Text"><br>
-        GENDER: 
+        GENDER: <label for="male">Male</label><input type="radio" id="male" name="gender" value="Male"><label for="female">Male</label><input type="radio" id="female" name="gender" value="Female"><label for="other">Male</label><input type="radio" id="other" name="gender" value="Other"><br>
+        <br>
+        ADDRESS: <input type="TextArea">
+        <br>
+        CITY: <input type="text">
+        <br>
+        PIN CODE: <input type="text">
+        <br>
+        STATE: <input type="text">
+        <br>
+        COUNTRY: <input type="text">
+        <br>
+        HOBBIES: <label for="drawing">Drawing</label><input type="checkbox" id="drawing" name="hobbies" Value="Drawing"><label for="singing">Drawing</label><input type="checkbox" id="singing" name="hobbies" Value="Singing"><label for="dansing">Drawing</label><input type="checkbox" id="dansing" name="hobbies" Value="Dansing"> <label for="skeching">Drawing</label><input type="checkbox" id="skeching" name="hobbies" Value="Skeching"> <input type="text">
+        <br>
+    
+            <label>QUALIFICATION</label>
+        <table border="0">
+            <tr>
+                <th>SI.NO. Examination</th>
+                <th>Board</th>
+                <th>Percentage</th>
+                <th>Year of passing</th>
+            </tr>
+            <tr>
+                <td></td>
+                <td>Class X</td>
+                <td><input type="text"></td>
+                <td><input type="text"></td>
+                <td><input type="text"></td>
+                
+            
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Class XII</td>
+                <td><input type="text"></td>
+                <td><input type="text"></td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Graduation</td>
+                <td><input type="text"></td>
+                <td><input type="text"></td>
+                <td><input type="text"></td>
+                
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Masters</td>
+                <td><input type="text"></td>
+                <td><input type="text"></td>
+                <td><input type="text"></td>
+            </tr>
 
+        </table>
+        <br>
+        COURSES APPLIED FOR: <label for="bca">BCA</label><input type="radio" id="bca" name="courses" value="BCA"><label for="bsc" >BSC</label><input type="radio" id="bcs" name="courses" value="BSC">
+        <br>
+        <input type="submit" value="submit"><input type="reset" value="reset">
         </pre>
-    </fORM>
+
+    </form>
 
 </body>
 </html>
